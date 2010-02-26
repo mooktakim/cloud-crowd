@@ -100,7 +100,8 @@ module CloudCrowd
     # ActiveRecord connection format.
     def configure_database(config_path, validate_schema=true)
       configuration = YAML.load_file(config_path)
-      ActiveRecord::Base.establish_connection(configuration)
+      rack_env = ENV['RACK_ENV'] || 'development'
+      ActiveRecord::Base.establish_connection(configuration[rack_env])
       if validate_schema
         version = ActiveRecord::Base.connection.select_values('select max(version) from schema_migrations').first.to_i
         return true if version == SCHEMA_VERSION
