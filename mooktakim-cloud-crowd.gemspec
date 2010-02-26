@@ -46,7 +46,7 @@ Gem::Specification.new do |s|
 actions/graphics_magick.rb
 actions/process_pdfs.rb
 actions/word_count.rb
-cloud-crowd.gemspec
+mooktakim-cloud-crowd.gemspec
 config/config.example.ru
 config/config.example.yml
 config/database.example.yml
