@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
-  s.name      = 'cloud-crowd'
-  s.version   = '0.3.3'         # Keep version in sync with cloud-cloud.rb
-  s.date      = '2010-01-27'
+  s.name      = 'mooktakim-cloud-crowd'
+  s.version   = '0.3.4'         # Keep version in sync with cloud-cloud.rb
+  s.date      = '2010-02-26'
 
   s.homepage    = "http://wiki.github.com/documentcloud/cloud-crowd"
   s.summary     = "Parallel Processing for the Rest of Us"
@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
     streets had only one direction.
   EOS
 
-  s.authors           = ['Jeremy Ashkenas']
+  s.authors           = ['Jeremy Ashkenas', 'Mooktakim Ahmed']
   s.email             = 'jeremy@documentcloud.org'
   s.rubyforge_project = 'cloud-crowd'
 

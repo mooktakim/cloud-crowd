@@ -4,7 +4,7 @@ module CloudCrowd
   class CommandLine
     
     # Configuration files required for the `crowd` command to function.
-    CONFIG_FILES = ['config.yml', 'config.ru', 'database.yml']
+    CONFIG_FILES = ['config.yml', 'database.yml']
     
     # Reference the absolute path to the root.
     CC_ROOT = File.expand_path(File.dirname(__FILE__) + '/../..')
