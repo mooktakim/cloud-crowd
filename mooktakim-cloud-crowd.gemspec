@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name      = 'mooktakim-cloud-crowd'
-  s.version   = '0.3.4'         # Keep version in sync with cloud-cloud.rb
+  s.version   = '0.3.5'         # Keep version in sync with cloud-cloud.rb
   s.date      = '2010-02-26'
 
   s.homepage    = "http://wiki.github.com/documentcloud/cloud-crowd"
@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
                          '--all'
 
   s.add_dependency 'sinatra',       ['>= 0.9.4']
-  s.add_dependency 'activerecord',  ['>= 2.3.3']
+  s.add_dependency 'activerecord',  ['= 2.3.5']
   s.add_dependency 'json',          ['>= 1.1.7']
   s.add_dependency 'rest-client',   ['>= 1.0.3']
   s.add_dependency 'right_aws',     ['>= 1.10.0']
